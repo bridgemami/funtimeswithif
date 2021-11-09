@@ -25,4 +25,4 @@ else if (a !=25 && b == 10 && c != 1) {
 else if (a !=25 && b != 10 && c == 1) {
   alert('a & b are incorrect');
 }
-else { alert("stupid");}
+else { alert("Nope");}
