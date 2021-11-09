@@ -2,37 +2,47 @@ let answer = prompt('What is your percentage', '');
 
 if(answer == 100){
   alert("perfect");
+  document.getElementById('grade').innerHTML= "Your score: " + answer;
 }
 else if (answer > 100){
   alert('Nothing above 100. try again');
   let a = prompt('What is your percentage', '');
   if(a == 100){
   alert("perfect");
+  document.getElementById('grade').innerHTML= "Your score: " + a;
 }
 else if  (a > 90){
   alert('outstanding');
+  document.getElementById('grade').innerHTML= "Your score: " + a;
 }
 else if  (a > 80){
   alert('average');
+  document.getElementById('grade').innerHTML= "Your score: " + a;
 }
 else if  (a>70){
   alert('okay');
+  document.getElementById('grade').innerHTML= "Your score: " + a;
 }
 else {
   alert("fail");
+  document.getElementById('grade').innerHTML= "Your score: " + a;
 }
 }
 else if  (answer > 90){
   alert('outstanding');
+  document.getElementById('grade').innerHTML= "Your score: " + answer;
 }
 else if  (answer > 80){
   alert('average');
+  document.getElementById('grade').innerHTML= "Your score: " + answer;
 }
 else if  (answer>70){
   alert('okay');
+  document.getElementById('grade').innerHTML= "Your score: " + answer;
 }
 else {
   alert("fail");
+  document.getElementById('grade').innerHTML= "Your score: " + answer;
 }
 /*let a =prompt('5*5=?', '');
 let b = prompt('5+5=?', '');
