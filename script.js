@@ -76,3 +76,15 @@ function hello () {
 }
 function no () {
 document.body.style.backgroundColor='white';}
+
+function bye (name) {
+  console.log("My name is " + name);
+}
+bye('mike');
+bye('Ian');
+function g () {
+  return 5*5;
+}
+console.log("what is in the function: " + g());
+
+
